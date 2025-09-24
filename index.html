@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Mundo Creativo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #ecf0f1;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px;
+      margin: 20px 0;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #f1c40f;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #bdc3c7;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Mi Mundo Creativo</h1>
+    <p>Bienvenido a un rincón digital donde las ideas toman forma</p>
+  </header>
+
+  <section class="section">
+    <div class="card">
+      <h2>🌟 Sobre mí</h2>
+      <p>Soy un creador apasionado por la tecnología, el diseño y las historias visuales. Este espacio es una ventana a mis proyectos, pensamientos y sueños digitales.</p>
+    </div>
+
+    <div class="card">
+      <h2>📁 Proyectos</h2>
+      <p>Desde páginas web modernas hasta pequeñas apps experimentales. Explora algunos <a href="#">proyectos destacados</a> que he desarrollado con amor y creatividad.</p>
+    </div>
+
+    <div class="card">
+      <h2>📫 Contacto</h2>
+      <p>¿Quieres colaborar o simplemente saludar? Escríbeme a <a href="mailto:creativo@email.com">creativo@email.com</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mi Mundo Creativo · Diseñado con 💙 en la Web
+  </footer>
+
+</body>
+</html>
